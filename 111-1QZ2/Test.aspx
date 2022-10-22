@@ -11,8 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="lb_Msg" runat="server" Text="Label"></asp:Label>
-            <br />
-            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="40px" Width="40px" style="margin-right: 0px" OnClick="btn_Submit_Click" />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="40px" Width="40px" OnClick="btn_Submit_Click" />
         </div>
     </form>
 </body>
